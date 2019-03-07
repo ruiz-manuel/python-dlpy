@@ -2179,7 +2179,7 @@ class Optimizer(DLPyDict):
     bn_src_layer_warnings : bool, optional
         Turns warning on or off, if batch normalization source layer has
         an atypical type, activation, or include_bias setting. Default: False
-        freeze_layers_to : string
+    freeze_layers_to : string
         Specifies a layer name to freeze this layer and all the layers before
         this layer.
     total_mini_batch_size : int, optional
